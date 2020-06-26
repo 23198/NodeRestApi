@@ -1,7 +1,7 @@
  
 #!/bin/bash
 cd /apps
-export MONGODB_URI=$(cat /apps/uri.txt)
+export MONGODB_URI=$(cat uri.txt)
 sudo apt-get update -y
 sudo apt get install curl -y
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash 
