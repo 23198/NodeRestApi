@@ -10,4 +10,4 @@ sudo npm i -g pm2
 sudo pm2 stop all
 sudo pm2 start  bin/www
 set -a
-#source .env
+source .env
