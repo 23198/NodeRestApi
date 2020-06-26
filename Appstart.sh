@@ -9,3 +9,5 @@ sudo apt-get install nodejs -y
 sudo npm i -g pm2
 sudo pm2 stop all
 sudo pm2 start  bin/www
+sudo set -a
+sudo source .env
