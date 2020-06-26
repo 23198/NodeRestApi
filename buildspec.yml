@@ -6,8 +6,9 @@ phases:
       - echo installing nodejs....working......
       - curl -sL https://deb.nodesource.com/setup_12.x | bash -
       - apt-get install -y nodejs
- # pre_build:
-   # commands:
+  pre_build:
+    commands:
+      - echo $Name > uri.txt
   build:
     commands:
       - echo building...
